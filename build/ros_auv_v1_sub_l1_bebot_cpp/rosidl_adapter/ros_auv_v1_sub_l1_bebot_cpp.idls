@@ -1,0 +1,4 @@
+/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp/rosidl_adapter/ros_auv_v1_sub_l1_bebot_cpp:msg/L1AdaptiveMsg.idl
+/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp/rosidl_adapter/ros_auv_v1_sub_l1_bebot_cpp:msg/OptimizationParameters.idl
+/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp/rosidl_adapter/ros_auv_v1_sub_l1_bebot_cpp:msg/OptimizationResult.idl
+/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp/rosidl_adapter/ros_auv_v1_sub_l1_bebot_cpp:msg/OptimizationStatus.idl

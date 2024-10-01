@@ -1,0 +1,346 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/lib/ccache/cc
+-- Check for working C compiler: /usr/lib/ccache/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/lib/ccache/c++
+-- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp
+[35m[1mScanning dependencies of target decasteljau[0m
+[35m[1mScanning dependencies of target control_systems[0m
+[35m[1mScanning dependencies of target state_space_matrices[0m
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__cpp[0m
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] [32mBuilding CXX object CMakeFiles/state_space_matrices.dir/state_space_matrices.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/control_systems.dir/control_systems.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/decasteljau.dir/decasteljau.cpp.o[0m
+[  8%] [32m[1mLinking CXX shared library libcontrol_systems.so[0m
+[  9%] [32m[1mLinking CXX shared library libstate_space_matrices.so[0m
+[ 11%] [32m[1mLinking CXX shared library libdecasteljau.so[0m
+[ 11%] Built target control_systems
+[ 11%] Built target state_space_matrices
+[ 11%] Built target decasteljau
+[ 11%] Built target ros_auv_v1_sub_l1_bebot_cpp__cpp
+[ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_c[0m
+[ 19%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_c.dir/rosidl_generator_c/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_c.dir/rosidl_generator_c/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_c.dir/rosidl_generator_c/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_c.dir/rosidl_generator_c/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__functions.c.o[0m
+[ 22%] [32m[1mLinking C shared library libros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_c.so[0m
+[ 22%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_c
+[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_parameters__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_status__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/l1_adaptive_msg__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_result__type_support.cpp.o[0m
+[ 32%] [32m[1mLinking CXX shared library libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.so[0m
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cpp[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__type_support.cpp.o[0m
+[ 38%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/dds_fastrtps/optimization_result__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/dds_fastrtps/optimization_status__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/dds_fastrtps/l1_adaptive_msg__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/dds_fastrtps/optimization_parameters__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_auv_v1_sub_l1_bebot_cpp/msg/l1_adaptive_msg__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_parameters__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_status__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_result__type_support.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cpp.so[0m
+[ 52%] [32m[1mLinking CXX shared library libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c.so[0m
+[ 53%] [32m[1mLinking CXX shared library libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_cpp.so[0m
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c[0m
+[ 53%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c
+[ 53%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cpp
+[ 56%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__type_support.c.o[0m
+[ 60%] [32m[1mLinking C shared library libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c.so[0m
+[ 60%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_cpp
+[ 61%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 61%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__type_support_c.cpp.o[0m
+[ 69%] [32m[1mLinking CXX shared library libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c.so[0m
+[ 69%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp[0m
+[ 69%] Built target ros_auv_v1_sub_l1_bebot_cpp
+[35m[1mScanning dependencies of target publisher_node[0m
+[35m[1mScanning dependencies of target L1_adaptive_node[0m
+[35m[1mScanning dependencies of target subscriber_node[0m
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__py[0m
+[35m[1mScanning dependencies of target printing_node[0m
+[35m[1mScanning dependencies of target buffer_node[0m
+[ 70%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/printing_node.dir/src/printing_node.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/L1_adaptive_node.dir/src/L1_adaptive_node.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/buffer_node.dir/src/buffer_node.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable printing_node[0m
+[ 80%] [32m[1mLinking CXX executable subscriber_node[0m
+[ 81%] [32m[1mLinking CXX executable L1_adaptive_node[0m
+[ 81%] Built target printing_node
+[ 83%] [32m[1mLinking CXX executable publisher_node[0m
+[ 83%] Built target subscriber_node
+[ 84%] [32m[1mLinking CXX executable buffer_node[0m
+[ 84%] Built target publisher_node
+[ 84%] Built target L1_adaptive_node
+[ 84%] Built target buffer_node
+[ 84%] Built target ros_auv_v1_sub_l1_bebot_cpp__py
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__python[0m
+[ 87%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__python.dir/rosidl_generator_py/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_result_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__python.dir/rosidl_generator_py/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_status_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__python.dir/rosidl_generator_py/ros_auv_v1_sub_l1_bebot_cpp/msg/_l1_adaptive_msg_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__python.dir/rosidl_generator_py/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_parameters_s.c.o[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/ros_auv_v1_sub_l1_bebot_cpp/libros_auv_v1_sub_l1_bebot_cpp__python.so[0m
+[ 91%] Built target ros_auv_v1_sub_l1_bebot_cpp__python
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mScanning dependencies of target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c__pyext[0m
+[ 92%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_auv_v1_sub_l1_bebot_cpp/_ros_auv_v1_sub_l1_bebot_cpp_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_auv_v1_sub_l1_bebot_cpp/_ros_auv_v1_sub_l1_bebot_cpp_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_auv_v1_sub_l1_bebot_cpp/_ros_auv_v1_sub_l1_bebot_cpp_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros_auv_v1_sub_l1_bebot_cpp/ros_auv_v1_sub_l1_bebot_cpp_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/ros_auv_v1_sub_l1_bebot_cpp/ros_auv_v1_sub_l1_bebot_cpp_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/ros_auv_v1_sub_l1_bebot_cpp/ros_auv_v1_sub_l1_bebot_cpp_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c__pyext
+[100%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c__pyext
+[100%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: "Debug"
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ament_index/resource_index/rosidl_interfaces/ros_auv_v1_sub_l1_bebot_cpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_result.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_parameters.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__functions.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__functions.c
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__functions.c
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__functions.c
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__type_support.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__struct.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__functions.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__functions.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__functions.c
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__functions.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__type_support.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__struct.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__type_support.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__struct.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__struct.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__type_support.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/l1_adaptive_msg.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_status.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/library_path.sh
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/library_path.dsv
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_c.so
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_c.so" to ""
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__rosidl_typesupport_fastrtps_c.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__rosidl_typesupport_fastrtps_c.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__rosidl_typesupport_fastrtps_c.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/dds_fastrtps
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__rosidl_typesupport_introspection_c.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__type_support.c
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__type_support.c
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__type_support.c
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__rosidl_typesupport_introspection_c.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__type_support.c
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__rosidl_typesupport_introspection_c.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__rosidl_typesupport_introspection_c.h
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c.so
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_status.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/l1_adaptive_msg.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_result.hpp
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__type_support.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__traits.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__builder.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__traits.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__type_support.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__struct.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__struct.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__struct.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__builder.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__builder.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__type_support.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__struct.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__type_support.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__traits.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__traits.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__builder.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_parameters.hpp
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg
+-- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__type_support.cpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__type_support.cpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__type_support.cpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__type_support.cpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.so
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.so" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/pythonpath.sh
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/pythonpath.dsv
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/__init__.py
+Compiling '/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/__init__.py'...
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/__init__.py
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_l1_adaptive_msg.py
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_result_s.c
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_status_s.c
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_parameters.py
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_l1_adaptive_msg_s.c
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_status.py
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_parameters_s.c
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_result.py
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/ros_auv_v1_sub_l1_bebot_cpp_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/ros_auv_v1_sub_l1_bebot_cpp_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/ros_auv_v1_sub_l1_bebot_cpp_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/ros_auv_v1_sub_l1_bebot_cpp_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/ros_auv_v1_sub_l1_bebot_cpp_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/ros_auv_v1_sub_l1_bebot_cpp_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__python.so
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__python.so" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/L1AdaptiveMsg.idl
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationParameters.idl
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationResult.idl
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationStatus.idl
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/L1AdaptiveMsg.msg
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationParameters.msg
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationResult.msg
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationStatus.msg
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/L1_adaptive_node
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/L1_adaptive_node" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/publisher_node
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/publisher_node" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/subscriber_node
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/subscriber_node" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/printing_node
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/printing_node" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/buffer_node
+-- Set runtime path of "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/buffer_node" to ""
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/libcontrol_systems.so
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/libstate_space_matrices.so
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/libdecasteljau.so
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ament_index/resource_index/package_run_dependencies/ros_auv_v1_sub_l1_bebot_cpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ament_index/resource_index/parent_prefix_path/ros_auv_v1_sub_l1_bebot_cpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/ament_prefix_path.sh
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/ament_prefix_path.dsv
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/path.sh
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/path.dsv
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/local_setup.bash
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/local_setup.sh
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/local_setup.zsh
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/local_setup.dsv
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/package.dsv
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ament_index/resource_index/packages/ros_auv_v1_sub_l1_bebot_cpp
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_cExport.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_cExport-debug.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cExport-debug.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cExport.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cExport-debug.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_cppExport.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cppExport-debug.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cppExport.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cppExport-debug.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/rosidl_cmake-extras.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cppConfig.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cppConfig-version.cmake
+-- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/package.xml

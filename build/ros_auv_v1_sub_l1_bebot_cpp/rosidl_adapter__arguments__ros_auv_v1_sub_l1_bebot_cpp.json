@@ -1,0 +1,9 @@
+{
+  "package_name": "ros_auv_v1_sub_l1_bebot_cpp",
+  "non_idl_tuples": [
+    "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp:msg/L1AdaptiveMsg.msg",
+    "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp:msg/OptimizationParameters.msg",
+    "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp:msg/OptimizationResult.msg",
+    "/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp:msg/OptimizationStatus.msg"
+  ]
+}

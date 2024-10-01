@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_auv_v1_sub_l1_bebot_cpp/msg/L1AdaptiveMsg.msg
+// generated code does not contain a copyright notice
+
+
+module ros_auv_v1_sub_l1_bebot_cpp {
+  module msg {
+    struct L1AdaptiveMsg {
+      double x_act;
+
+      double y_act;
+
+      double z_act;
+
+      double roll_act;
+
+      double pitch_act;
+
+      double yaw_act;
+
+      double u_act;
+
+      double v_act;
+
+      double w_act;
+
+      double p_act;
+
+      double q_act;
+
+      double r_act;
+
+      double adap;
+
+      double delta_v_act;
+
+      double delta_m_act;
+
+      double delta_s_act;
+
+      double zend;
+
+      double thetaend;
+
+      double tf;
+
+      double tend;
+
+      double t0;
+
+      double y_aug;
+    };
+  };
+};

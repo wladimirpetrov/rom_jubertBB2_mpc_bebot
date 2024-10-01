@@ -1,0 +1,191 @@
+[0.011s] Invoking command in '/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp': CMAKE_PREFIX_PATH=/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2024.2/lib/cmake: /usr/bin/cmake --build /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp -- -j12 -l12
+[0.070s] [  8%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_c
+[0.071s] [ 11%] Built target control_systems
+[0.071s] [ 14%] Built target decasteljau
+[0.073s] [ 16%] Built target state_space_matrices
+[0.073s] [ 18%] Built target ros_auv_v1_sub_l1_bebot_cpp__cpp
+[0.095s] [ 26%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c
+[0.099s] [ 35%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c
+[0.102s] [ 45%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cpp
+[0.102s] [ 52%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp
+[0.106s] [ 60%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_cpp
+[0.132s] [ 69%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c
+[0.151s] [ 69%] Built target ros_auv_v1_sub_l1_bebot_cpp
+[0.176s] [ 70%] Built target ros_auv_v1_sub_l1_bebot_cpp__py
+[0.181s] [ 73%] Built target printing_node
+[0.182s] [ 76%] Built target buffer_node
+[0.187s] [ 78%] Built target L1_adaptive_node
+[0.188s] [ 81%] Built target publisher_node
+[0.191s] [ 84%] Built target subscriber_node
+[0.204s] [ 91%] Built target ros_auv_v1_sub_l1_bebot_cpp__python
+[0.232s] [ 94%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c__pyext
+[0.234s] [ 97%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c__pyext
+[0.235s] [100%] Built target ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c__pyext
+[0.245s] Invoked command in '/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp' returned '0': CMAKE_PREFIX_PATH=/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2024.2/lib/cmake: /usr/bin/cmake --build /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp -- -j12 -l12
+[0.545s] Invoking command in '/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp': CMAKE_PREFIX_PATH=/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2024.2/lib/cmake: /usr/bin/cmake --install /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp
+[0.557s] -- Install configuration: "Debug"
+[0.557s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ament_index/resource_index/rosidl_interfaces/ros_auv_v1_sub_l1_bebot_cpp
+[0.557s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp
+[0.558s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg
+[0.558s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_result.h
+[0.558s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/rosidl_generator_c__visibility_control.h
+[0.558s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_parameters.h
+[0.558s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail
+[0.558s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__functions.h
+[0.559s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__functions.c
+[0.559s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__functions.c
+[0.559s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__functions.c
+[0.559s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__type_support.h
+[0.559s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__struct.h
+[0.560s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__functions.h
+[0.560s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__functions.h
+[0.560s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__functions.c
+[0.560s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__functions.h
+[0.560s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__type_support.h
+[0.560s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__struct.h
+[0.561s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__type_support.h
+[0.561s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__struct.h
+[0.561s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__struct.h
+[0.561s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__type_support.h
+[0.561s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/l1_adaptive_msg.h
+[0.561s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_status.h
+[0.561s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/library_path.sh
+[0.562s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/library_path.dsv
+[0.562s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_c.so
+[0.562s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp
+[0.562s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg
+[0.563s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.563s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail
+[0.563s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__rosidl_typesupport_fastrtps_c.h
+[0.563s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__rosidl_typesupport_fastrtps_c.h
+[0.563s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__rosidl_typesupport_fastrtps_c.h
+[0.563s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__rosidl_typesupport_fastrtps_c.h
+[0.564s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_c.so
+[0.564s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp
+[0.564s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg
+[0.564s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.564s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail
+[0.564s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[0.564s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__rosidl_typesupport_fastrtps_cpp.hpp
+[0.565s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/dds_fastrtps
+[0.565s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.565s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.565s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_fastrtps_cpp.so
+[0.565s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp
+[0.565s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg
+[0.565s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.565s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail
+[0.565s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__rosidl_typesupport_introspection_c.h
+[0.566s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__type_support.c
+[0.566s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__type_support.c
+[0.566s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__type_support.c
+[0.566s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__rosidl_typesupport_introspection_c.h
+[0.566s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__type_support.c
+[0.566s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__rosidl_typesupport_introspection_c.h
+[0.566s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__rosidl_typesupport_introspection_c.h
+[0.566s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_c.so
+[0.566s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_c.so
+[0.566s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp
+[0.566s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_status.hpp
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/l1_adaptive_msg.hpp
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_result.hpp
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__type_support.hpp
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__traits.hpp
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__builder.hpp
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__traits.hpp
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__type_support.hpp
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__struct.hpp
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__struct.hpp
+[0.567s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__struct.hpp
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__builder.hpp
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__builder.hpp
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__type_support.hpp
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__struct.hpp
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__type_support.hpp
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__traits.hpp
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__traits.hpp
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__builder.hpp
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_parameters.hpp
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail
+[0.568s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__rosidl_typesupport_introspection_cpp.hpp
+[0.569s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__rosidl_typesupport_introspection_cpp.hpp
+[0.569s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__type_support.cpp
+[0.569s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_status__type_support.cpp
+[0.569s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_result__type_support.cpp
+[0.569s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/optimization_parameters__rosidl_typesupport_introspection_cpp.hpp
+[0.569s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__rosidl_typesupport_introspection_cpp.hpp
+[0.569s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/include/ros_auv_v1_sub_l1_bebot_cpp/msg/detail/l1_adaptive_msg__type_support.cpp
+[0.569s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cpp.so
+[0.569s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.so
+[0.569s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/pythonpath.sh
+[0.569s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/pythonpath.dsv
+[0.569s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/__init__.py
+[0.603s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg
+[0.603s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/__init__.py
+[0.603s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_l1_adaptive_msg.py
+[0.603s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_result_s.c
+[0.603s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_status_s.c
+[0.603s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_parameters.py
+[0.603s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_l1_adaptive_msg_s.c
+[0.603s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_status.py
+[0.603s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_parameters_s.c
+[0.603s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/msg/_optimization_result.py
+[0.604s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/ros_auv_v1_sub_l1_bebot_cpp_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.604s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/ros_auv_v1_sub_l1_bebot_cpp_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.605s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/python3.8/site-packages/ros_auv_v1_sub_l1_bebot_cpp/ros_auv_v1_sub_l1_bebot_cpp_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.606s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/libros_auv_v1_sub_l1_bebot_cpp__python.so
+[0.606s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/L1AdaptiveMsg.idl
+[0.606s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationParameters.idl
+[0.606s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationResult.idl
+[0.606s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationStatus.idl
+[0.606s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/L1AdaptiveMsg.msg
+[0.606s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationParameters.msg
+[0.606s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationResult.msg
+[0.607s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationStatus.msg
+[0.607s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/L1_adaptive_node
+[0.607s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/publisher_node
+[0.607s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/subscriber_node
+[0.608s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/printing_node
+[0.608s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/buffer_node
+[0.609s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/libcontrol_systems.so
+[0.609s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/libstate_space_matrices.so
+[0.609s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/lib/ros_auv_v1_sub_l1_bebot_cpp/libdecasteljau.so
+[0.609s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ament_index/resource_index/package_run_dependencies/ros_auv_v1_sub_l1_bebot_cpp
+[0.609s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ament_index/resource_index/parent_prefix_path/ros_auv_v1_sub_l1_bebot_cpp
+[0.610s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/ament_prefix_path.sh
+[0.610s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/ament_prefix_path.dsv
+[0.610s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/path.sh
+[0.610s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/environment/path.dsv
+[0.610s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/local_setup.bash
+[0.610s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/local_setup.sh
+[0.610s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/local_setup.zsh
+[0.610s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/local_setup.dsv
+[0.610s] -- Installing: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/package.dsv
+[0.610s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ament_index/resource_index/packages/ros_auv_v1_sub_l1_bebot_cpp
+[0.610s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_cExport.cmake
+[0.610s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_cExport-debug.cmake
+[0.610s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cExport.cmake
+[0.611s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cExport-debug.cmake
+[0.611s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cExport.cmake
+[0.611s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cExport-debug.cmake
+[0.611s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_generator_cppExport.cmake
+[0.611s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cppExport.cmake
+[0.611s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_introspection_cppExport-debug.cmake
+[0.611s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cppExport.cmake
+[0.611s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cppExport-debug.cmake
+[0.611s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/rosidl_cmake-extras.cmake
+[0.611s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.612s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+[0.612s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[0.612s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.612s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.612s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.612s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cppConfig.cmake
+[0.612s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/cmake/ros_auv_v1_sub_l1_bebot_cppConfig-version.cmake
+[0.612s] -- Up-to-date: /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp/share/ros_auv_v1_sub_l1_bebot_cpp/package.xml
+[0.614s] Invoked command in '/local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp' returned '0': CMAKE_PREFIX_PATH=/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/install/ros_auv_v1_sub_l1_bebot_cpp:/opt/ros/foxy:/home/vpetrov/dev/crazyflie_opt/libbebot_test_ws/install/libbebot_test:/home/vpetrov/dev/crazyflie_opt/test_ws/install/my_ros2_package:/opt/intel/oneapi/mkl/2024.2/lib/cmake: /usr/bin/cmake --install /local/vol00/home/vpetrov/dev/crazyflie_opt/ros_auv_v1_sub_l1_bebot_cpp/build/ros_auv_v1_sub_l1_bebot_cpp

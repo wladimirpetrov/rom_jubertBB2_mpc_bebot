@@ -1,0 +1,70 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationParameters.msg
+// generated code does not contain a copyright notice
+
+
+module ros_auv_v1_sub_l1_bebot_cpp {
+  module msg {
+    struct OptimizationParameters {
+      int32 n;
+
+      double tf;
+
+      double delta_v_max;
+
+      double delta_v_min;
+
+      double delta_s_max;
+
+      double delta_s_min;
+
+      double delta_m_max;
+
+      double delta_m_min;
+
+      double zmax;
+
+      double zmin;
+
+      double wmax;
+
+      double wmin;
+
+      double thetamax;
+
+      double thetamin;
+
+      double qmax;
+
+      double qmin;
+
+      double z0;
+
+      double w0;
+
+      double theta0;
+
+      double q0;
+
+      double delta_v0;
+
+      double delta_m0;
+
+      double delta_s0;
+
+      double zf;
+
+      double thetaf;
+
+      sequence<double> a_flat;
+
+      sequence<double> b_flat;
+
+      double t0;
+
+      double tend;
+
+      double psi0;
+    };
+  };
+};

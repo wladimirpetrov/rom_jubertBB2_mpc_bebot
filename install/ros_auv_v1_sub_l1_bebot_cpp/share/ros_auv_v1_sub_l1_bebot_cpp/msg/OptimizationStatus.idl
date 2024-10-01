@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_auv_v1_sub_l1_bebot_cpp/msg/OptimizationStatus.msg
+// generated code does not contain a copyright notice
+
+
+module ros_auv_v1_sub_l1_bebot_cpp {
+  module msg {
+    struct OptimizationStatus {
+      boolean ready;
+    };
+  };
+};

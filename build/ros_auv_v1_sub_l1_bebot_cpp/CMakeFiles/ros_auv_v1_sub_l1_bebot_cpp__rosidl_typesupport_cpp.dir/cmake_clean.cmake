@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/l1_adaptive_msg__type_support.cpp.o"
+  "CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_parameters__type_support.cpp.o"
+  "CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_result__type_support.cpp.o"
+  "CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_status__type_support.cpp.o"
+  "libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.pdb"
+  "libros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/l1_adaptive_msg__type_support.cpp"
+  "rosidl_typesupport_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_parameters__type_support.cpp"
+  "rosidl_typesupport_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_result__type_support.cpp"
+  "rosidl_typesupport_cpp/ros_auv_v1_sub_l1_bebot_cpp/msg/optimization_status__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ros_auv_v1_sub_l1_bebot_cpp__rosidl_typesupport_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

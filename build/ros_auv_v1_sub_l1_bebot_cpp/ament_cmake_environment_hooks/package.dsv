@@ -1,0 +1,4 @@
+source;share/ros_auv_v1_sub_l1_bebot_cpp/local_setup.bash
+source;share/ros_auv_v1_sub_l1_bebot_cpp/local_setup.dsv
+source;share/ros_auv_v1_sub_l1_bebot_cpp/local_setup.sh
+source;share/ros_auv_v1_sub_l1_bebot_cpp/local_setup.zsh
